@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>7c28c20f-8279-4cc1-8f96-be2c062c5d6c</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PythonExample.py</StartupFile>
+    <StartupFile>PyExam4_variable.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,16 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="PythonExample.py" />
+    <Compile Include="PyExam2_list_tuple.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PyExam1_num_string.py" />
+    <Compile Include="PyExam3_dictionary.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PyExam4_variable.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
