@@ -4,6 +4,12 @@
 혹은 json obejct를 생각하자.
 """
 
+#기본값을 먹일 수 있는 딕셔너리. 에러 안남, 초기 작업 무필요.
+from collections import defaultdict
+
+dicList=defaultdict(list) #없으면 기본값이 []인 딕셔너리
+dicInt=defaultdict(int) #없으면 기본값이 0인 딕셔너리
+
 a = {}
 b = dict()
 

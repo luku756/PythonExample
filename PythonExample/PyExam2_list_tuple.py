@@ -12,10 +12,25 @@ print(d)
 del d[1] # 12 가 사라짐
 print(d)
 
+#a 에 값 추가
+a = []
+a.append(3)
+
+#더하기 연산으로 뒤에 이어붙이기 가능
+b = [1,2]
+a += b
+print(a) #3,1,2
 
 d = ["asd", 12 , 5.7, [123, "sdf", c, "sdfs", a]]
 del d[1:3] # 12, 5.7  사라짐
 print(d)
+
+#size 크기만큼 초기화
+lists = [0 for i in range(size)]
+
+#리스트 정렬 방식. 람다 함수를 써서 원하는 조건으로 정렬. 아래는 역순(내림차순, 큰거 앞으로) 정렬.
+#arr의 각 값을 play라는 리스트에 집어넣어서 그 값을 기준으로 정렬한 것. 사용 나름
+arr.sort(key = lambda x : plays[x], reverse=True)
 
 """
 인덱싱, 슬라이싱 사용 가능.

@@ -2,10 +2,17 @@
 숫자와 문자열
 """
 
+#엔터대신 공백으로 마무리.
+print("asd", end=" ")
+print("qwe", end=" ")
+
 a = int( 17/2)#파이썬에서는 그냥 나누면 소수로 자동 캐스팅. 8.5
 print(a)
 #print(a+"asd") # 타입 에러 발생. a가 문자열이 아님
 print(str(a)+"asd") #캐스팅 필요
+
+print(17//2) # 17을 2로 나눈 몫
+print(2**4) # 2^4
 
 b = "asda"
 

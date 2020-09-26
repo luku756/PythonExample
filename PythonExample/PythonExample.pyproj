@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>7c28c20f-8279-4cc1-8f96-be2c062c5d6c</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PyExam4_variable.py</StartupFile>
+    <StartupFile>test.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -25,10 +25,31 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="PyExam1_num_string.py" />
-    <Compile Include="PyExam3_dictionary.py">
+    <Compile Include="PyExam3_dictionary_set.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="PyExam4_variable.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PyExam5_if_while_for.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PyExam8_predefine_Func.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PyExam6_func.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PyExam7_class.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="save.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="test.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="webExam.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
